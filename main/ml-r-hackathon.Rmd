@@ -41,7 +41,7 @@ library(MLmetrics)
 ## Data Gathering
 
 ```{r}
-dirpath <- "C:/Users/brice/Downloads/hackathon-machine-learning-117654345267829876/"
+dirpath <- "data/"
 train <- read.csv(paste(dirpath, "data.csv", sep= ""))
 test <- read.csv(paste(dirpath, "data.csv", sep= ""))
 ```
