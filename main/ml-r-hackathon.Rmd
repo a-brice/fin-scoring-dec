@@ -30,8 +30,7 @@ library(corrplot)
 library(MASS)
 library(factoextra)
 library(FactoMineR)
-library(class) # knn
-library(e1071) # svm
+library(e1071) 
 require(xgboost)
 library(randomForest)
 library(gbm)
